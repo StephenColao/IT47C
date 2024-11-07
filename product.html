@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products - Threads of Elegance</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="Images/logo.webp" width="50px">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="product-detail.html">Product-detail</a></li>
+                <li><a href="product.html">Products</a></li>
+                <button class="logout-btn" onclick="logout()">Log Out</button>
+            </ul>
+        </nav>
+        <img src="Images/shopping-bag.png" width="30px" height="30px">
+        <img src="Images/menupng.png" class="menu-icon" 
+        onclick="menutoggle()">
+
+    
+</div>
+  </div>  
+    
+<div class="small-container">
+
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Sort by price</option>
+            <option>Sory by popularity</option>
+            <option>Sort by rating</option>
+            <option>Sort by sale</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/product1.webp">
+            <h4>Woven Polo Short Sleeve</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>PHP700.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/product2.webp">
+                <h4>Collared shirt pique</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>PHP695.00</p>
+                </div><div class="col-4">
+                    <img src="Images/product3.webp">
+                    <h4>Celine slip dress</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>PHP3,549.00</p>
+                    </div><div class="col-4">
+                        <img src="Images/product4.webp">
+                        <h4>Pleated Trim Detail shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>PHP1,499.00</p>
+                        </div>
+    </div>               <div class="row">
+        <div class="col-4">
+            <img src="Images/product5.webp">
+            <h4>Nike Air Force</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>PHP4,069.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/product6.webp">
+                <h4>Gap Logo Hoodie</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>PHP1,450.00</p>
+                </div><div class="col-4">
+                    <img src="Images/product7.webp">
+                    <h4>Jansport Crosstown backpack</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>PHP1,900.00</p>
+                    </div><div class="col-4">
+                        <img src="Images/product8.webp">
+                        <h4>Embroidery line Tshirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>PHP1,949.00</p>
+                        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/Lproduct1.webp">
+            <h4>Oversized Fit Printed Hoodie</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>PHP999.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/lproduct2.webp">
+                <h4>Basketball Tank Top for Kids</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>PHP510.00</p>
+                </div><div class="col-4">
+                    <img src="Images/lproduct3.webp">
+                    <h4>Crop Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>PHP749.00</p>
+                    </div><div class="col-4">
+                        <img src="Images/Eproduct4.webp">
+                        <h4>Dunne Derby Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>PHP2,499.00</p>
+                        </div>
+    </div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>
+</div>
+
+        
+    </div>
+                         
+</div>
+
+<script>
+   
+    // Function to handle logout
+    function logout() {
+        // Clear the session from localStorage
+        localStorage.removeItem("isLoggedIn");
+        // Redirect to the login page
+        window.location.href = "login.html";
+    }
+</script>
+<!---------- footer --------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and Ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="Images/playstore1.png">
+                    <img src="Images/appstore2.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="">
+                <p>Our purpose is to Make everyone comfortable In your own way of clothing Style</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful link</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 | Threads of Elegance</p>
+    </div>
+</div>
+<!----------js for toggle-------->
+<script>
+    var MenuItems = document.getElementById("Menuitems");
+   
+    Menuitems.style.maxHeight = "0px";
+     
+    function menutoggle(){
+        if(Menuitems.style.maxHeight == "0px")
+    {
+          MenuItems.style.maxHeight = "200px";
+    }
+        else
+        {
+          Menuitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+    
+</body>
+</html>

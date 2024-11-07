@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Threads of Elegance | Ecommerce website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+<div class="header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="Images/logo.webp" width="50px">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="product-detail.html">Product-detail</a></li>
+                <li><a href="product.html">Products</a></li>
+                
+                <button class="logout-btn" onclick="logout()">Log Out</button>
+            </ul>
+        </nav>
+        <img src="Images/shopping-bag.png" width="30px" height="30px">
+        <img src="Images/menupng.png" class="menu-icon" 
+        onclick="menutoggle()">
+
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Dress to Express, <br> Not to Impress</h1>
+            <p>Being well-dressed hasn't much to do with having good clothes.<br> It's a question of good balance<br> and good common sense.</p>
+            <a href="" class="btn">Explore Now &#8594;</a> 
+        </div>
+        <div class="col-2"></div>
+<img src="Images/Ms_Sweaters_XL25.png">
+    </div>
+</div>
+  </div>  
+  <!-------- featured categories -------->   
+  <div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="Images/category1.webp">
+            </div>
+            <div class="col-3">
+                <img src="Images/category2.webp">
+            </div>
+            <div class="col-3">
+                <img src="Images/category3.webp">
+            </div>
+        </div>
+    </div>
+    
+  </div> 
+ <!-------- featured products -------->   
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/product1.webp">
+            <h4>Woven Polo Short Sleeve</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>PHP700.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/product2.webp">
+                <h4>Collared shirt pique</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>PHP695.00</p>
+                </div><div class="col-4">
+                    <img src="Images/product3.webp">
+                    <h4>Celine slip dress</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>PHP3,549.00</p>
+                    </div><div class="col-4">
+                        <img src="Images/product4.webp">
+                        <h4>Pleated Trim Detail shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>PHP1,499.00</p>
+                        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/Lproduct1.webp">
+            <h4>Oversized Fit Printed Hoodie</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>PHP999.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/lproduct2.webp">
+                <h4>Basketball Tank Top for Kids</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>PHP510.00</p>
+                </div><div class="col-4">
+                    <img src="Images/lproduct3.webp">
+                    <h4>Crop Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>PHP749.00</p>
+                    </div><div class="col-4">
+                        <img src="Images/Eproduct4.webp">
+                        <h4>Dunne Derby Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>PHP2,499.00</p>
+                        </div>
+    </div>
+</div>
+<!--------offers------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images/lproduct.webp">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available on Threads of Elegance</p>
+                <h1>Krystal Couture</h1>
+                <small> The Hour Check Krystal Watch Embellished With SWAROVSKI® Crystals is an elegant timepiece with a bold, yet subtle design. </small>
+                <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------- testimonial --------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>This watch is really nice and beautiful, Glamorous</p>
+                <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+            </div>
+            <img src="Images/user2.jfif">
+            <h3>Russell Ching</h3>
+        </div><div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Good watch a fancy one. I really like it.</p>
+            <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+        </div>
+        <img src="Images/user3.jpg">
+        <h3>Sam Tonggao</h3>
+    </div><div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>This watch is really nice a good present for my wife.</p>
+        <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+    </div>
+    <img src="Images/user1.jfif">
+    <h3>James Rymer Ocero</h3>
+</div>
+        
+    </div>
+</div>
+
+<script>
+   
+    // Function to handle logout
+    function logout() {
+        // Clear the session from localStorage
+        localStorage.removeItem("isLoggedIn");
+        // Redirect to the login page
+        window.location.href = "login.html";
+    }
+</script>
+<!--------- brands ------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="Images/logo.card.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/logo.gcash.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/logo.paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/logo.paymaya.png">
+        </div>
+    </div>
+</div>
+<!---------- footer --------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and Ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="Images/playstore1.png">
+                    <img src="Images/appstore2.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="">
+                <p>Our purpose is to Make everyone comfortable In your own way of clothing Style</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful link</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 | Threads of Elegance</p>
+    </div>
+</div>
+<!----------js for toggle-------->
+<script>
+    var MenuItems = document.getElementById("Menuitems");
+   
+    Menuitems.style.maxHeight = "0px";
+     
+    function menutoggle(){
+        if(Menuitems.style.maxHeight == "0px")
+    {
+          MenuItems.style.maxHeight = "200px";
+    }
+        else
+        {
+          Menuitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+    </body>
+</html>
